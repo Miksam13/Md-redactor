@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background: #111317;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.container {
+	display: flex;
+}
+
+.left p {
+	font-size: 24px;
+	color: white;
+	font-weight: 600;
+}
+
+.right p {
+	font-size: 24px;
+	color: white;
+	font-weight: 600;
+	margin-left: 25px;
+}
+.textarea {
+	width: 45vw;
+	min-height: 540px;
+	background: #f1f1f1;
+	border-radius: 10px;
+	outline: none;
+	padding: 10px;
+	font-size: 18px;
+	resize: none;
+}
+.output {
+	font-size: 18px;
+	width: 45vw;
+	min-height: 540px;
+	background: #222;
+	border-radius: 10px;
+	border: none;
+	margin-left: 20px;
+	padding: 10px;
+	color: #fff;
+	outline: none;
+	line-height: 3rem;
+	resize: none;
+}
+
+header {
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+header button {
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	background-color: white;
+	color: black;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 100px;
+	height: 50px;
+}
+
+header input {
+	opacity: 0;
+	margin-left: -10px;
+}
+
+header p {
+	color: white;
+	font-size: 24px;
+}
+
+header div {
+	margin-left: -10px;
+}
